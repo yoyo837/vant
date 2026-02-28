@@ -106,7 +106,6 @@ export default (lazyManager) =>
         () => props.src,
         () => {
           init();
-          lazyManager.addLazyBox(lazyBox);
           lazyManager.lazyLoadHandler();
         },
       );
